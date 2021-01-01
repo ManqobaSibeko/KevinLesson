@@ -127,7 +127,7 @@ margin: 0em auto 0em;
   height: 300px;
   display:inline-block;
   border-radius: 9px;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin : 15px 1px;
   border: rgb(140, 170, 57) 2px solid;
 
@@ -149,4 +149,32 @@ img.hover-img{
 }
 .box:hover img.hover-img{
    opacity: 1;
+}
+
+.back{
+  position: relative;
+}
+.row-back{
+  position:absolute;
+  top: 36%;
+  right: 20%;
+
+}
+
+.row-back h1{
+  margin: 0 40px;
+  background:black ;
+  font-size: 7em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  mix-blend-mode: color-burn;
+
+
+}
+.css{
+ font-size: 10em !important ;
+}
+.secret{
+  font-size: 5em !important ;
 }
